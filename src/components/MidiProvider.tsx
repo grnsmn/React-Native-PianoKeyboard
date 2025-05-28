@@ -11,7 +11,7 @@ import { WebView } from "react-native-webview";
 import * as Tone from "tone";
 
 import type { WebView as WebViewType } from "react-native-webview";
-import { isWeb } from "./utils";
+import { isWeb } from "../utils";
 
 const ToneJsWebview = `
 <!DOCTYPE HTML>

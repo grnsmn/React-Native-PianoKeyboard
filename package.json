@@ -1,35 +1,61 @@
 {
-  "name": "pianokeyboard",
+  "name": "react-native-piano-keyboard",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "description": "A beautiful and customizable piano keyboard component for React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "start": "expo start",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web",
-    "deploy": "gh-pages -t -d dist",
-    "predeploy": "expo export -p web"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@expo/metro-runtime": "~3.2.3",
-    "expo": "~51.0.26",
-    "expo-av": "~14.0.6",
-    "expo-dev-client": "~4.0.22",
-    "expo-image": "~1.12.13",
-    "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.74.5",
-    "react-native-web": "~0.19.10",
-    "react-native-webview": "13.8.6",
+  "keywords": [
+    "react-native",
+    "piano",
+    "keyboard",
+    "music",
+    "midi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "expo": ">=48.0.0",
+    "expo-av": ">=14.0.0",
+    "expo-image": ">=1.0.0",
     "tonal": "^6.2.0",
-    "tone": "^15.0.4"
+    "tone": "^15.0.0",
+    "react-native-webview": ">=13.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
-    "gh-pages": "^6.1.1",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "expo": "~51.0.26",
+    "expo-av": "~14.0.6",
+    "expo-image": "~1.12.13",
+    "expo-status-bar": "~1.12.1",
+    "tonal": "^6.2.0",
+    "tone": "^15.0.4",
+    "react-native-webview": "13.8.6"
   },
-  "private": true
+  "contributors": [
+    {
+      "name": "zhen1007",
+      "url": "https://github.com/zhen1007",
+      "site": "https://zhen-portfolio.vercel.app/"
+    },
+    {
+      "name": "gscripts",
+      "url": "https://github.com/grnsmn",
+      "site": "https://simoneguarnuccio.vercel.app/"
+    }
+  ]
 }

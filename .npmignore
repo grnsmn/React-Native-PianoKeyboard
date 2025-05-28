@@ -1,0 +1,24 @@
+# Source files
+src/
+tsconfig.json
+babel.config.js
+
+# Development files
+.git/
+.gitignore
+node_modules/
+*.log
+
+# Example files
+App.tsx
+app.json
+
+# Build files
+dist/
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo 

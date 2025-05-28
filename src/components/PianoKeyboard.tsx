@@ -15,7 +15,7 @@ import {
 import { Note } from "tonal";
 
 import { useMidi } from "./MidiProvider";
-import { isWeb } from "./utils";
+import { isWeb } from "../utils";
 
 // White key image w : h = 53 : 195
 const NOTE_WHITE_WIDTH = 53;
@@ -263,4 +263,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PianoKeyboard;
+export { PianoKeyboard };
