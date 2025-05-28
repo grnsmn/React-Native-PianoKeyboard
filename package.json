@@ -12,7 +12,10 @@
     "build": "tsc && npm run copy-assets",
     "copy-assets": "cp -R src/assets dist/assets",
     "prepare": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
   },
   "keywords": [
     "react-native",
