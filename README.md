@@ -95,3 +95,5 @@ In the output, you'll find options to open the app in a
 
 - [zhen1007](https://github.com/zhen1007) ([Portfolio](https://zhen-portfolio.vercel.app/))
 - [gscripts](https://github.com/grnsmn) ([Portfolio](https://simoneguarnuccio.vercel.app/))
+
+> ⚠️ **Warning:** Version `1.0.0` published on npm is broken due to missing assets. Please use version `1.0.1` or higher.
