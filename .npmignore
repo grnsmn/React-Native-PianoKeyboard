@@ -14,7 +14,6 @@ App.tsx
 app.json
 
 # Build files
-dist/
 build/
 
 # IDE files

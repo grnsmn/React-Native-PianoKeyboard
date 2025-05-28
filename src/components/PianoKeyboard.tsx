@@ -115,12 +115,12 @@ const PianoKeyboard: React.FC<IPianoKeyboardProps> = ({
 
     if (key.isWhite) {
       image = pressed
-        ? require("./assets/images/white_key_pressed.png")
-        : require("./assets/images/white_key.png");
+        ? require("../assets/images/white_key_pressed.png")
+        : require("../assets/images/white_key.png");
     } else {
       image = pressed
-        ? require("./assets/images/black_key_pressed.png")
-        : require("./assets/images/black_key.png");
+        ? require("../assets/images/black_key_pressed.png")
+        : require("../assets/images/black_key.png");
     }
 
     return image;
@@ -209,7 +209,7 @@ const PianoKeyboard: React.FC<IPianoKeyboardProps> = ({
     <View style={styles.container}>
       <Image
         style={[styles.topImage]}
-        source={require("./assets/images/Top.png")}
+        source={require("../assets/images/Top.png")}
         contentFit="fill"
         {...(Platform.OS === "web" && { draggable: false })}
       />
