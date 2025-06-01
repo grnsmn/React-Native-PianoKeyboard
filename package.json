@@ -4,6 +4,14 @@
   "description": "A beautiful and customizable piano keyboard component for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grnsmn/React-Native-PianoKeyboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grnsmn/React-Native-PianoKeyboard/issues"
+  },
+  "homepage": "https://github.com/grnsmn/React-Native-PianoKeyboard#readme",
   "files": [
     "dist",
     "README.md"
