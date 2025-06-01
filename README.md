@@ -20,6 +20,7 @@ This package requires the following peer dependencies:
 - expo-image
 - tonal
 - tone
+- react-native-webview
 
 ## Usage
 
